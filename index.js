@@ -1,10 +1,6 @@
 window.onload = ()=>{
     listado = new ListadoTareas();
 }
-
-
-
-
 class Tarea{
 
     
@@ -22,8 +18,6 @@ class Tarea{
         this.fFinalizacion = null;
         this.fVencimiento = fVencimiento;
     }
-    
-    
         generarId(){
             return Math.floor(Math.random() * 989684964); 
         }
@@ -97,5 +91,4 @@ class ListadoTareas{
         this.lista = JSON.parse(localStorage.getItem('datos'))
     }
 }
-
-
+//a la verga me vale verga prro :v
